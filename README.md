@@ -10,7 +10,7 @@ This project implements a modular Multi-Agent AI Framework for automated essay e
 
 ## Automated Scoring: Essays are assessed and assigned scores based on structured parameters.
 
-##Detailed Feedback: The system provides specific suggestions for improvement.
+## Detailed Feedback: The system provides specific suggestions for improvement.
 
 ## Modular Design: Each agent performs a specialized task, ensuring flexibility and scalability.
 
