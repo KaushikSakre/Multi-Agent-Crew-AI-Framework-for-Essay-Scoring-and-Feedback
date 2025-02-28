@@ -25,7 +25,7 @@ evaluation_agent = Agent(
 
     Behave as an expert essay evaluator with experience in grading essays.''',
     backstory="""You are an experienced evaluation agent for assessing essays. You are an experienced evaluator, responsible for evaluating student essays based on a given prompt. """,
-    tools=[my_pdf_searcher, my_internet_explorer],  # Using tools like PDF Searcher and Internet Explorer for referencing
+    tools=[my_pdf_searcher],  # Using tools like PDF Searcher for referencing
     llm=my_llm,
     max_iter=10,
     verbose=True,
