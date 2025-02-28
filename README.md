@@ -1,6 +1,6 @@
 # Multi-Agent-Crew-AI-Framework-for-Essay-Scoring-and-Feedback
 
-![image](https://github.com/user-attachments/assets/1d52dec0-68fd-4fcb-a0e4-e65a2c85c809)
+![image](https://github.com/user-attachments/assets/89f94e30-9cb9-48aa-ab8e-1af6f9668499)
 
 
 # Overview
