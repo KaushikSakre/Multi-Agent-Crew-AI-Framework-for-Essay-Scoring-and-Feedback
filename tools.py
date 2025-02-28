@@ -5,6 +5,7 @@ import google.generativeai as genai
 #llm=ChatGroq(api_key='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',
 #             model_name="llama3-70b-8192")
 # PDF Search Tool
+pdf_path = input("Enter the full path of the PDF file: ")
 my_pdf_searcher = PDFSearchTool(
     config=dict(
         llm=dict(
@@ -25,7 +26,7 @@ my_pdf_searcher = PDFSearchTool(
             ),
         ),
     ),
-    pdf="D:/Feedback/Essay_Rubric.pdf",
+    pdf=pdf_path,
 	description="""
         A dynamic tool to read and interpret the essay rubric provided by the user. 
         It extracts the expected scoring guidelines based on key traits such as focus, organization, voice, word choice, and grammar. 
